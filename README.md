@@ -5,6 +5,8 @@
 
 # Temas que faltan
 - Campos Vectoriales
+- Funciones lineares
+- Matrices
 - Anillos
 - Cálculo
 - Cálculo Multivariado
