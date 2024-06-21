@@ -5,21 +5,190 @@
 
 # Temas que faltan
 - Campos Vectoriales
+    - Espacios vectoriales
+    - Span (genera)
+    - Linealmente Independiente
+    - Base
+    - Base Ortonormal
 - Funciones lineares
-- Matrices
-- Anillos
+    - Matrices
+    - Rotaciones
+    - Kernel
+    - Vectores Propios y Valores Propios
+    - Diagonalización
+- Anillos Modulares
 - Cálculo
+    - Límite (Tender a)
+    - Derivada
+    - La derivada visual
+    - Herramientas de derivación
+        - Regla de la potencia
+        - Regla del producto
+        - Regla del cociente
+        - Regla de la cadena
+    - Resolver derivadas trigonométricas con el límite
+    - Resolver la derivada del logaritmo
+    - Máximos y Mínimos
+    - Derivada implícita
+    - Anti-derivada
+    - Integral visual
+    - Integral definida como una suma infinita (Suma de Riemann)
+    - Demostración de que una integral es una anti-derivada
+    - Herramientas de integración
+        - Regla de la potencia
+        - Integración por partes
+        - Fracciones Parciales
+        - Sustitución
+        - Sustitución Trigonométrica
+    - Integrales impropias
+
 - Cálculo Multivariado
+    - Derivada parcial
+    - Gradiente
+    - Rotacional
+    - Divergencia
+    - Laplaciano
+    - Mínimos y Máximos
+    - Multiplicadores de Lagrange
+    - Integrales de volumen
+    - Integrales de linea
+    - Integrales de superficie
+    - Teorema de Gauss
+    - Teorema de Navier-Stokes
+    - Jacobiano (Cambio de variable en múltiples integrales)
+    - Integrales triples
 - Números Complejos
+    - Que es $x^2 = -1$
+    - Diagrama de Argand
+    - Zeros de polinomios
+    - Raices de la unidad
+    - Algebra en números complejos
+    - Que es $\overline{x}$
+    - Identidad de Euler
+    - Extensión de funciones al plano complejo
+        - Logaritmo
+        - Exponencial
+        - Seno
+        - Coseno
 - Cálculo Complejo
+    - Teorema de Helmholtz
+    - Ecuaciones de Cauchy-Riemann
+    - Derivada compleja
+    - Tipos de funciones
+        - Entera
+        - Holomorficas
+        - Meromorfica
+    - Integral de linea en el plano complejo
+    - Serie de Potencia
+    - Serie de Taylor
+    - Teorema Integral de Cauchy
+    - Formula Integral de Cauchy
+    - Serie de Laurent
+    - Residuo en polos
+    - Teorema del Residuo
 - Matemáticas Discretas
+    - Sumas infinitas
+    - Productorias
+    - Divisibilidad
+    - Algoritmo de Euclides
+    - Matemática modular
+    - Primos
+    - Teorema de Wilson
+    - El pequeño teorema de Fermat
+    - El teorema de Euler
+    - El teorema chino del residuo
+    - El símbolo de legendre
+    - Pruebas
+        - Por contradicción
+        - Directa
+        - Por inducción
+        - Principio de Casillero (Pigeonhole Principle)
+        - Prueba por casos
+        - Prueba por conjuntos
+    - Teoría de Grafos
+        - Conectividad
+        - Característica de Euler
+- Optimización
+    - Método Simplex
+    - Gradiente Descendiente
 - Operadores Lógicos
+    - Y, O, No, Implica, Bicondicional
+    - Congruencia de una Oración
+    - First Order Logic
 - Ecuaciones Diferenciales
-- Métodos Númericos
+    - Ecuaciones Diferenciales Ordinarias
+    - Primer Orden
+        - Ecuaciones Diferenciales Lineares
+        - Ecuaciones Diferenciales Homogéneas
+        - Ecuaciones Diferenciales Exactas
+        - Ecuaciones Diferenciales Bernoulli
+        - Factor de Integración
+    - Segundo Orden
+        - Coeficientes Indeterminados
+        - Variación de Parámetros
+        - Cauchy-Euler
+        - Series de Potencias
+        - Transformada de Laplace
+        - Transformada de Fourier
+- Métodos Numéricos
+    - Método de la Integral de Euler
+    - Runje-Kutta
+    - Método de Newton
 - Criptografía
-- Teoría de Números
+    - Primitivas
+    - Servicios de la Seguridad
+    - Protocolos
+    - Cifrado Cesar
+    - One-Time-Pad
+    - SHA-256
+    - AES-256
+    - Cifrado con curva elíptica (Juan ayuda)
 - Sistemas Caóticos
-- Estadistica
-- Probabilidad
+    - Atractores
+    - Repulsores
+    - Diagrama de Bifurcación
+    - Perturbaciones
+    - Puntos Críticos
+    - Estabilidad
+    - Susceptibilidad
+    - Teorema de Poincare (ameeesjcua)
+    - Oscilaciónes
+    - Mapas
+    - Lotka-Volterra
+    - Fractales
+- Probabilidad y Estadística
+    - Axiomas de Kolmogorov
+    - Variables Aleatorias
+    - Independientes e Idénticamente Distribuidos
+    - Que es una pdf y cdf
+    - Momentos
+    - Momentos Muestrales
+    - Teorema del Límite Central
+    - Ley de los grandes números
+    - Teorema de bayes
+    - Estudio de Distribuciones
+        - Continuas
+            - Normal
+            - Gamma
+            - Rayleigh
+            - Exponencial
+            - Uniforme
+        - Discretas
+            - Poisson
+            - Binomial
+            - Geométrica
+    - Método de Momentos
+    - Método de Máxima Verosimilitud
 - Regresiones
+    - OLS (Ordinary Least Squares)
+    - Gauss Markov
+    - Propuesta de un SVM
+    - Problema Primal
+    - Problema Dual
 - Interpolaciones
+    - Lineal
+    - Bi-lineal
+    - Generalización Lineal
+    - Cuadráticas
+    - Trazadores Cúbicos
+    - Polinomio de Lagrange
