@@ -1,0 +1,85 @@
+\documentclass[../template.tex]{subfiles}
+
+\begin{document}
+
+\section{Vectores}
+\dfn{Vector}{Un vector es una lista (conjunto ordenado) de datos o cantidades que no se pueden expresar por una única cantidad. De ahora en adelante hablaremos de vectores euclidianos. Que tienen cantidades numéricas y una dimensión.}
+\subsection{Vectores Euclidianos}
+Un vector euclidiano tiene una dirección y una magnitud. Este tipo de vectores se denotan de la forma $\vec a$.
+\ex{Vector en $\mathbb{R}^2$}{
+\begin{wrapfigure}{l}{0pt}
+\centering
+\begin{tikzpicture}
+	\draw (2,0) coordinate (A) -- (0,0) coordinate (B) -- (2,1) coordinate (C) pic ["$\theta$", draw, angle eccentricity=2] {angle};
+	\draw[black, ->] (-3,0) -- (3,0);
+	\draw[black, ->] (0,-3) -- (0,3);
+	\draw[red, -stealth] (0,0) -- (2,1) node[above] {$\vec a = \begin{bmatrix}
+	2\\
+	1\\
+	\end{bmatrix}$};
+	\draw[gray, |-|] (0,-0.1) -- (2,-0.1) node[midway, below] {$2$};
+	\draw[gray, |-|] (2.1,0) -- (2.1,1) node[midway, right] {$1$};
+	
+\end{tikzpicture}
+\end{wrapfigure}
+La magnitud de $\vec a$ se denota de la forma $|\vec a|$, en este caso sería.
+\begin{align}
+	|\vec a| &= \sqrt{2^2+1^2}\\
+		 &= \sqrt{5}
+\end{align}
+Por geometría la dirección sería
+\begin{align}
+	\tan{\theta} &= \frac{1}{2}\\
+	\theta &= \tan^{-1}{\frac{1}{2}}\\
+	       &\approx 0.4636
+\end{align}
+\vspace{1cm}
+}
+\subsubsection{Adición}
+\dfn{Adición de Vectores Euclidianos}{
+La adición de vectores euclidianos se realiza
+}
+
+\subsubsection{Substracción}
+
+
+
+\subsection{Productos internos}
+\dfn{Producto Interno}{
+Un producto interno denotado por $\left< \vec x, \vec y \right> $ donde $\vec x$ y $\vec y$ son vectores es una operación que cumple las siguientes propiedades
+\begin{itemize}
+	\item $\left< \vec x,\vec y \right> = \left< \vec y,\vec x \right>$
+	\item $\left< \vec x,\vec x \right> > 0 \mid x \neq \boldmath{0}$
+	\item $\left< a\vec x + b\vec z,\vec y \right> = a\left< \vec x, \vec y \right> + b\left<\vec z,\vec y \right>$
+\end{itemize}
+}
+\nt{El producto interno es un operador lineal, después veremos que significa eso.}
+\ex{Producto Punto}{
+El producto punto denotado por $\cdot$ entre dos vectores es la multiplicación y adición entrada por entrada de ambos vectores. Este también es un producto interno.
+\begin{align}
+	\vec a \cdot \vec b &= \sum_{i = 1}^{N}a_i b_i 
+\end{align}
+El producto punto también tiene otras propiedades geométricas importantes
+\begin{equation}
+	\vec a \cdot \vec b = |\vec a||\vec b| \cos{\theta}
+\end{equation}
+}
+\clm{El producto punto es un producto interno}{}{}
+\begin{myproof}{El producto punto es un producto interno}
+	\begin{align}
+		\intertext{Propiedad 1. }
+		\vec a \cdot \vec b &= \vec b \cdot \vec a\\
+		\sum_{i = 1}^{N}a_i b_i &= \sum_{i = 1}^{N}b_i a_i\\
+		\sum_{i = 1}^{N}a_i b_i &= \sum_{i = 1}^{N}a_i b_i\\
+		\intertext{Propiedad 2.}
+		\vec a \cdot \vec a &= \sum_{i = 1}^{N}a_i^2\\
+		a_i \in \mathbb{R} &\implies a_i^2 \geq 0\\
+		\intertext{Propiedad 3.}
+		\left( \alpha \vec a + \zeta \vec z \right) \cdot \beta \vec b &= \sum_{i = 1}^{N}\left( \alpha a_i + \zeta z_i \right) \beta b_i\\
+		\alpha \vec a \cdot \beta \vec b + \zeta \vec z \cdot \beta \vec b &= \sum_{i = 1}^{N} \alpha a_i \beta b_i + \zeta z_i \beta b_i
+	\end{align}
+\end{myproof}
+\clm{$\vec a \cdot \vec b = |\vec a||\vec b| \cos{\theta}$}{}{}
+
+\end{document}
+

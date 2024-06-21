@@ -1,0 +1,60 @@
+\documentclass[../template.tex]{subfiles}
+
+
+\begin{document}
+
+\section{Conjuntos}
+\dfn{Conjunto}{Un conjunto es una colección de objetos, que llamamos elementos.} De ahora en adelante nos referiremos a los conjuntos con una letra mayúscula ($A,B,C,\ldots $). Mientras que los elementos se escribirán con letras minúsculas ($a_1, a_2, a_3, \ldots, a_n \in A$).
+\subsection{Operaciones}
+\dfn{Unión}{
+La operación de unión se realiza entre conjuntos, y su símbolo es $\cup$.
+\[ 
+	A \cup B = \left\{x_i \mid x_i \in A \lor x_i \in B \right\}
+.\]
+}
+\dfn{Intersección}{
+La operación de intersección se realiza entre conjuntos, y su símbolo es $\cap$
+\[ 
+	A \cap B = \left\{x_i \mid x_i \in A \land x_i \in B \right\}
+.\]
+}
+\dfn{Cardinalidad}{
+Se puede entender la cardinalidad de un conjunto finito, por la cantidad elementos que lo conforman. La cardinalidad es denotada por $|A|$ donde $A$ es un conjunto.}
+\ex{Cardinalidad}{
+\begin{align}
+	A &= \left\{a_1, a_2, a_3, a_4, a_5\right\}\\
+	|A| &= 5
+\end{align}
+}
+\dfn{
+$|A| = |B|$
+}{
+	La cardinalidad de $A$ es igual a la cardinalidad de $B$ si existe una función biyectiva entre sus elementos. Es decir si existe una función ($f$) cuya imagen asigne a todos los valores del conjunto $B$ únicamente a un valor en $A$ y vice-versa. Esto también implica que existe una función inversa ($f^{-1}$)
+}
+\dfn{$|A| \leq |B|$}{
+La cardinalidad de $A$ es menor que o igual a la de $B$ si existe una función inyectiva de $A$ a $B$ es decir existe una función que asigna todos los elementos de $A$ a $B$ de forma única pero la imagen de la función no abarca todo el conjunto $B$.
+}
+\dfn{Conjunto Potencia}{
+Denotado por $P(A)$ donde $A$ es un conjunto, este esta compuesto por todos los subconjuntos de $A$ y el vacío.}
+\ex{Conjunto Potencia}{
+\begin{align} 
+	A &= \left\{a_1, a_2, a_3\right\}\\
+	P(A) &= \left\{\emptyset,
+\left\{a_1\right\},
+\left\{a_2\right\},
+\left\{a_3\right\},
+\left\{a_1,a_2\right\},
+\left\{a_2,a_3\right\},
+\left\{a_1, a_3\right\},
+\left\{a_1, a_2, a_3\right\}
+\right\}
+\end{align}
+}
+\nt{
+El conjunto poder $P(A)$ tiene una cardinalidad de $2^n$ donde $n$ es la cardinalidad de $A$.
+}
+
+
+\end{document}
+
+
