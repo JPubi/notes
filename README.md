@@ -4,12 +4,12 @@
 - Vectores
 
 # Temas que faltan
-- Campos Vectoriales
-    - Espacios vectoriales
-    - Span (genera)
-    - Linealmente Independiente
-    - Base
-    - Base Ortonormal
+- Campos Vectoriales (JP)
+    - Espacios vectoriales (JP)
+    - Span (genera) (JP)
+    - Linealmente Independiente (JP)
+    - Base (JP)
+    - Base Ortonormal (JP)
 - Funciones lineares
     - Matrices
     - Rotaciones
@@ -19,28 +19,28 @@
 - Anillos Modulares
 - Cálculo
     - Límite (Tender a)
-    - Derivada
-    - La derivada visual
-    - Herramientas de derivación
-        - Regla de la potencia
-        - Regla del producto
-        - Regla del cociente
-        - Regla de la cadena
-    - Resolver derivadas trigonométricas con el límite
+    - Derivada (JP)
+    - La derivada visual (JP)
+    - Herramientas de derivación (JP)
+        - Regla de la potencia (JP)
+        - Regla del producto (JP)
+        - Regla del cociente (JP)
+        - Regla de la cadena (JP)
+    - Resolver derivadas trigonométricas con el límite 
     - Resolver la derivada del logaritmo
     - Máximos y Mínimos
-    - Derivada implícita
+    - Derivada implícita (JP)
     - Anti-derivada
     - Integral visual
     - Integral definida como una suma infinita (Suma de Riemann)
     - Demostración de que una integral es una anti-derivada
-    - Herramientas de integración
-        - Regla de la potencia
-        - Integración por partes
-        - Fracciones Parciales
-        - Sustitución
-        - Sustitución Trigonométrica
-    - Integrales impropias
+    - Herramientas de integración (JP)
+        - Regla de la potencia (JP)
+        - Integración por partes (JP)
+        - Fracciones Parciales (JP)
+        - Sustitución (JP)
+        - Sustitución Trigonométrica (JP)
+    - Integrales impropias (JP)
 
 - Cálculo Multivariado
     - Derivada parcial
